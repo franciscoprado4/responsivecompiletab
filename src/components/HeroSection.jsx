@@ -12,9 +12,9 @@ export const HeroSection = () => {
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Empower your creativity and bring your VR app ideas to life with our intuitive
-        development tools. Get started today and turn your imagination into immersive
-        reality!
+        Empower your creativity and bring your VR app ideas to life with our
+        intuitive development tools. Get started today and turn your imagination
+        into immersive reality!
       </p>
       <div className="flex justify-center my-10">
         <a
@@ -33,7 +33,7 @@ export const HeroSection = () => {
           loop
           muted
           src={video1}
-          className="rounded-lg w-1/3 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-1/3  border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
         >
           Your browser does not support the video tag.
         </video>
@@ -42,7 +42,7 @@ export const HeroSection = () => {
           loop
           muted
           src={video2}
-          className="rounded-lg w-1/3 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-1/3  border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
         >
           Your browser does not support the video tag.
         </video>

@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import { FeatureSection } from "./components/FeatureSection";
+import { Workflow } from "lucide-react";
 
 export const App = () => {
   return (
@@ -8,6 +9,7 @@ export const App = () => {
       <Navbar />
       <HeroSection />
       <FeatureSection />
+      <Workflow />
     </>
   );
 };
